@@ -14,6 +14,7 @@ li{
 
 li1{
     display: inline;
+    display: block;
     padding: 15px;
     color: rgb(156, 156, 156);
     float: left;
@@ -28,12 +29,25 @@ ul{
     background-color: #333;
 }
 
-li:hover {
-    background-color: rgb(55, 104, 100);
+h1{
+    color: #333;
+    font-family: 'Magneto';
+    font-size: 50px;
+    padding: 0px 200px
 }
 
-li:active {
-    background-color: #ff0000;
+h2{
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 0px 200px
+}
+
+h5{
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 150px;
 }
 
 li1:hover {
