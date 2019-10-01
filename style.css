@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "Magneto";
+ src: url("/assets/fonts/magnetob.TTF") format("magnetob"),
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    color: aliceblue;
+    float: left;
+    font-size: 20px;
+    font-family: 'Magneto';
+}
+
+li1{
+    display: inline;
+    padding: 15px;
+    color: rgb(156, 156, 156);
+    float: left;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li:hover {
+    background-color: rgb(55, 104, 100);
+}
+
+li:active {
+    background-color: #ff0000;
+}
+
+li1:hover {
+    background-color: rgb(55, 104, 100);
+}
+
+li1:active {
+    background-color: #ff0000;
+}
